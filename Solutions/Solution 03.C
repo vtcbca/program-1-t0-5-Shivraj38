@@ -10,7 +10,7 @@ void main()
 	for(o=a;a|=0;)
 	{
 		re=a%10;
-		b=b*10*re;
+		b=b*10+re;
 		a=a/10;
 	}
 	if(o==b)
@@ -19,3 +19,4 @@ void main()
 	printf("it is not palindrom");
 	getch();
 }
+
